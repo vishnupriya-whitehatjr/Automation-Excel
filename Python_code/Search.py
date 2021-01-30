@@ -1,3 +1,4 @@
+#pip install xlrd==1.2.0
 #pip3 install pandas
 import pandas as pd
 #pip3 install numpy

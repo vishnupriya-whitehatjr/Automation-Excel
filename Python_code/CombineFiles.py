@@ -1,8 +1,9 @@
 #pip3 install pandas
+#pip install xlrd==1.2.0
 import pandas as pd
 
 #specify the files location (or path)
-excel_files = ['/Users/vishnupriya/Downloads/Excel_Automation/datasets/SampleData.xlsx']
+excel_files = ['datasets/SampleData.xlsx']
 
 #create a blank dataframe
 merge = pd.DataFrame()
@@ -15,5 +16,5 @@ for file in excel_files:
   merge = merge.append(df, ignore_index = True)
 
 #create final workbook with merged results
-merge.to_excel('/Users/vishnupriya/Downloads/Excel_Automation/datasets/Merged_Files.xlsx')
+merge.to_excel('datasets/Merged_Files.xlsx')
 print("Done!")

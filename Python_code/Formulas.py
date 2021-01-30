@@ -1,4 +1,5 @@
 #pip3 install openpyxl
+#pip install xlrd==1.2.0
 import openpyxl
 
 #specify the files location (or path)
